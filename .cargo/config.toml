@@ -1,0 +1,4 @@
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-L", "F:/Lib/x64"]
+[build]
+rustflags = ["-L", "F:/Lib/x64"]

@@ -1,0 +1,16 @@
+[package]
+name = "zttm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sysinfo = "0.29"
+rayon = { version = "1.10", optional = true }
+pnet = { version = "0.31.0", features = ["std"] }
+winreg = "0.55.0"
+dirs = "6.0.0"
+
+
+
+[patch.crates-io]
+winapi = { git = "https://github.com/retep998/winapi-rs" }
